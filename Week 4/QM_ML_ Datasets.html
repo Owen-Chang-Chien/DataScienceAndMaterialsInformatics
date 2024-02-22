@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<!-- saved from url=(0030)https://qmml.org/datasets.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=yes">
+
+  <title>QM/ML: Datasets</title>
+  <link rel="stylesheet" type="text/css" media="all" href="./QM_ML_ Datasets_files/style.css">
+  <style type="text/css"></style>
+</head>
+
+<body>
+  <div id="page">  <!-- page, outermost enclosing structure -->
+
+    <!-- Header -->
+
+    <header>
+      <h1><a href="https://qmml.org/index.html">Datasets</a></h1>
+      <h2><a href="https://qmml.org/index.html">A QM/ML resource</a></h2>
+    </header>
+
+    <!-- Datasets -->
+
+    <div class="menu">
+      <a class="btn" href="https://qmml.org/datasets.html#molecules">Molecules</a>
+      <a class="btn" href="https://qmml.org/datasets.html#solids">Solids</a>
+      <a class="btn" href="https://qmml.org/datasets.html#liquids">Liquids</a>
+    </div>
+
+    <!-- Organic molecules -->
+
+    <h1 id="molecules">Molecules</h1>
+
+    <!-- http://quantum-machine.org/datasets/#md-datasets -->
+    <div class="dataset">
+      <!-- <div class="name"><a href="Datasets/md-17.tar.bz2">MD-17</a></div> -->
+      <div class="name"><a href="http://quantum-machine.org/data/md_datasets.tar">MD-17</a></div>
+      <div class="publication">
+        <span class="authors">Kristof T. Schütt, Farhad Arbabzadah, Stefan Chmiela, Klaus R. Müller, Alexandre Tkatchenko</span>:
+        <span class="title">Quantum-Chemical Insights from Deep Tensor Neural Networks</span>,
+        <span class="journal">Nature Communications</span> <span class="pages">8: 13890</span>,
+        <span class="year">2017</span>.
+        <a href="http://doi.org/10.1038/ncomms13890" alt="DOI">[DOI]</a>;
+         
+        <span class="authors">Stefan Chmiela, Alexandre Tkatchenko, Huziel E. Sauceda, Igor Poltavsky, Kristof Schütt, Klaus-Robert Müller</span>:
+        <span class="title">Machine Learning of Accurate Energy-Conserving Molecular Force Fields</span>,
+        <span class="journal">Science Advances</span> <span class="pages">3(5): e1603015</span>,
+        <span class="year">2017</span>.
+        <a href="https://doi.org/10.1126/sciadv.1603015" alt="DOI">[DOI]</a>
+      </div>
+      <div class="description">
+        <span class="summary">Energies and forces from molecular dynamics trajectories of eight organic molecules.</span>
+        Ab initio molecular dynamics trajectories (133k to 993k frames) of benzene, uracil, naphthalene, aspirin, salicylic acid, malonaldehyde, ethanol, toluene
+        at the DFT/PBE+vdW-TS level of theory at 500 K.
+      </div>
+    </div>
+
+    <!-- http://quantum-machine.org/datasets/#md-datasets -->
+    <div class="dataset">
+      <div class="name"><a href="http://quantum-machine.org/data/c7o2h10_md.tar.gz">C7O2H10-17</a></div>
+      <div class="publication">
+        <span class="authors">Kristof T. Schütt, Farhad Arbabzadah, Stefan Chmiela, Klaus R. Müller, Alexandre Tkatchenko</span>:
+        <span class="title">Quantum-Chemical Insights from Deep Tensor Neural Networks</span>,
+        <span class="journal">Nature Communications</span> <span class="pages">8: 13890</span>,
+        <span class="year">2017</span>.
+        <a href="http://doi.org/10.1038/ncomms13890" alt="DOI">[DOI]</a>
+      </div>
+      <div class="description">
+        <span class="summary">Energies from molecular dynamics trajectories of 113 isomers of C7O2H10.</span>
+        Ab initio molecular dynamics trajectories (5k frames) at the DFT/PBE level of theory at 500 K.
+      </div>
+    </div>
+
+    <!-- <div class="summarytable">
+      <table>
+        <tr class="tabletoprow">
+          <th>Name</th>
+          <th>Molecules</th>
+          <th>Properties</th>
+          <th>Elements</th>
+        </tr>
+        <tr>
+          <td class="tablecellleft">GDB8-15</td>
+          <td>21,786</td>
+          <td>4(4)</td>
+          <td class="tablecellleft">H,C,N,O,F</td>
+        </tr>
+        <tr>
+          <td class="tablecellleft">GDB9-14</td>
+          <td>133,885</td>
+          <td>16(2)</td>
+          <td class="tablecellleft">H,C,N,O,F</td>
+        </tr>
+        <tr>
+          <td class="tablecellleft">GDB7-13</td>
+          <td>7,211</td>
+          <td>8(4)</td>
+          <td class="tablecellleft">H,C,N,O,S,Cl</td>
+        </tr>
+        <tr>
+          <td class="tablecellleft">GDB7-12</td>
+          <td>7,165</td>
+          <td>1(1)</td>
+          <td class="tablecellleft">H,C,N,O,S</td>
+        </tr>
+      </table>
+      where term in brackets indicates levels of theory used.
+  </div> -->
+
+    <!-- ftp://ftp.aip.org/epaps/journ_chem_phys/E-JCPSA6-143-043532/gdb8_22k_elec_spec.txt -->
+    <div class="dataset">
+      <div class="name"><a href="https://qmml.org/Datasets/gdb8-15.zip">GDB8-15</a><span class="aka">QM8</span></div>
+      <div class="publication">
+        <span class="authors">Raghunathan Ramakrishnan, Mia Hartmann, Enrico Tapavicza, O. Anatole von Lilienfeld</span>:
+        <span class="title">Electronic Spectra from TDDFT and Machine Learning in Chemical Space</span>,
+        <span class="journal">Journal of Chemical Physics</span> <span class="pages">143(8): 084111</span>,
+        <span class="year">2015</span>.
+        <a href="http://doi.org/10.1063/1.4928757" alt="DOI">[DOI]</a>
+      </div>
+      <div class="description">
+        <span class="summary">22k small organic molecules, in their ground states, with electronic spectra.</span>
+        21,786 small organic molecules with up to 8 C, O, N, F atoms, saturated with H.
+        Ground state and two lowest vertical electronic excited states (transition energies and oscillator strengths) at LR-TDCAM-B3LYP/def2TZVP, LR-TDPBE0/def2TZVP, LR-TDPBE0/def2SVP, and RI-CC2 levels of theory.
+      </div>
+    </div>
+
+    <!-- http://doi.org/10.6084/m9.figshare.978904 -->
+    <div class="dataset">
+      <div class="name"><a href="https://qmml.org/Datasets/gdb9-14b.zip">GDB9-14</a><span class="aka">QM9</span><span style="float: right;">(85&nbsp;MB)</span></div>
+      <div class="publication">
+        <span class="authors">Raghunathan Ramakrishnan, Pavlo Dral, Matthias Rupp, O. Anatole von Lilienfeld</span>:
+        <span class="title">Quantum Chemistry Structures and Properties of 134 kilo Molecules</span>,
+        <span class="journal">Scientific Data</span> <span class="pages">1: 140022</span>,
+        <span class="year">2014</span>.
+        <a href="http://doi.org/10.1038/sdata.2014.22" alt="DOI">[DOI]</a>
+      </div>
+      <div class="description">
+        <span class="summary">134k small organic molecules, in their ground states, with energetic, electronic and thermodynamic properties.</span>
+        133,885 small organic molecules with up to 9 C, O, N, F atoms, saturated with H.
+        Geometries, harmonic frequencies, dipole moments, polarizabilities, energies, enthalpies, and free energies of atomization at the DFT/B3LYP/6-31G(2df,p) level of theory.
+        For a subset of 6,095 constitutional isomers of C<sub>7</sub>H<sub>10</sub>O<sub>2</sub>, energies, enthalpies, and free energies of atomization are provided at the G4MP2 level of theory.
+      </div>
+      <div class="update">
+          Fix floating point notation in some coordinates and property values; provide single .xyz files for isomers and molecules.
+          The original version is still available at <a href="https://doi.org/10.6084/m9.figshare.978904">FigShare</a>.
+      </div>
+    </div>
+
+    <div class="dataset">
+      <div class="name"><a href="https://qmml.org/Datasets/gdb7-13.zip">GDB7-13</a><span class="aka">QM7b</span></div>
+      <div class="publication">
+        <span class="authors">Grégoire Montavon, Matthias Rupp, Vivekanand Gobre, Alvaro Vazquez-Mayagoitia, Katja Hansen, Alexandre Tkatchenko, Klaus-Robert Müller, O. Anatole von Lilienfeld:</span>
+        <span class="title">Machine Learning of Molecular Electronic Properties in Chemical Compound Space,</span>
+        <span class="journal">New Journal of Physics</span> <span class="pages">15(9): 095003</span>,
+        <span class="year">2013</span>.
+        <a href="http://doi.org/10.1088/1367-2630/15/9/095003" alt="DOI">[DOI]</a>
+      </div>
+      <div class="description">
+        <span class="summary">7k small organic molecules, in their ground state, 14 combinations of properties and theory levels.</span>
+        7,211 small organic molecules composed of H, C, N, O, S, Cl, saturated with H, and up to 7 non-H atoms.
+        Molecules relaxed using DFT with PBE functional.
+        Properties are atomization energy (DFT/PBE0), averaged polarizability (DFT/PBE0, SCS), HOMO and LUMO eigenvalues (GW, DFT/PBE0, ZINDO), and, ionization potential, electron affinity, first excitation energy, frequency of maximal absorption (all ZINDO).
+      </div>
+    </div>
+
+    <div class="dataset">
+      <div class="name"><a href="https://qmml.org/Datasets/gdb7-12.zip">GDB7-12</a><span class="aka">QM7</span></div>
+      <div class="publication">
+        <span class="authors">Matthias Rupp, Alexandre Tkatchenko, Klaus-Robert Müller, O. Anatole von Lilienfeld:</span>
+        <span class="title">Fast and Accurate Modeling of Molecular Atomization Energies with Machine Learning,</span>
+        <span class="journal">Physical Review Letters</span> <span class="pages">108(5): 058301</span>,
+        <span class="year">2012</span>.
+        <a href="http://doi.org/10.1103/PhysRevLett.108.058301" alt="DOI">[DOI]</a>
+      </div>
+      <div class="description">
+        <span class="summary">7k small organic molecules, close to their ground states, with DFT atomization energies.</span>
+        7,165 small organic molecules composed of H, C, N, O, S, saturated with H, and up to 7 non-H atoms.
+        Molecules relaxed with an empirical potential.
+        Atomization energies calculated using DFT with hybrid PBE0 functional.
+      </div>
+    </div>
+
+    <!-- Solids -->
+
+    <h1 id="solids">Solids</h1>
+
+    <!-- from Chris Sutton via Marcel Langer 2020-04-15 -->
+    <div class="dataset">
+      <div class="name"><a href="https://qmml.org/Datasets/nmd-18.zip">NMD-18</a></div>
+      <div class="publication">
+        <span class="authors">Christopher Sutton, Luca M. Ghiringhelli, Takenori Yamamoto, Yury Lysogorskiy, Lars Blumenthal, Thomas Hammerschmidt, Jacek R. Golebiowski, Xiangyue Liu, Angelo Ziletti, Matthias Scheffler</span>:
+        <span class="title">Crowd-sourcing materials-science challenges with the NOMAD 2018 Kaggle competition</span>,
+        <span class="journal">npj Computational Materials</span> <span class="pages"> 5:111</span>,
+        <span class="year">2019</span>.
+        <a href="https://doi.org/10.1038/s41524-019-0239-3" alt="DOI">[DOI]</a>
+      </div>
+      <div class="description">
+        <span class="summary">3k Al-Ga-In sesquioxides with energies and band gaps.</span>
+          Relaxed and Vegard's rule geometries with formation energy and band gaps at DFT/PBE level of theory of 3k (Al<sub>x</sub>-Ga<sub>y</sub>-In<sub>z</sub>)<sub>2</sub>O<sub>3</sub> oxides, x+y+z=1.
+          Contains all structures from the Kaggle challenge training and leaderboard data.
+      </div>
+    </div>
+
+    <!-- from Chandramouli Nyshadham 2018-05-09 -->
+    <div class="dataset">
+      <div class="name"><a href="https://qmml.org/Datasets/ba10-18.zip">BA10-18</a><span class="aka">DFT-10B</span></div>
+      <div class="publication">
+        <span class="authors">Chandramouli Nyshadham, Matthias Rupp, Brayden Bekker, Alexander V. Shapeev, Tim Mueller, Conrad W. Rosenbrock, Gábor Csányi, David W. Wingate, Gus L. W. Hart</span>:
+        <span class="title">Machine-Learned Multi-System Surrogate Models for Materials Prediction</span>,
+        <span class="journal">npj Computational Materials</span> <span class="pages"> 5:51</span>,
+        <span class="year">2019</span>.
+        <a href="https://doi.org/10.1038/s41524-019-0189-9" alt="DOI">[DOI]</a>
+      </div>
+      <div class="description">
+        <span class="summary">Energies of 10 binary alloys with 1,595 structures each.</span>
+          10 binary alloys (AgCu, AlFe, AlMg, AlNi, AlTi, CoNi, CuFe, CuNi, FeV, NbNi) with 10 different species and all possible FCC, BCC and HCP structures up to 8 atoms in the unit cell. 15,950 structures in total. Lattice parameters from Vegard's rule.
+          DFT/PBE total and formation energies.
+      </div>
+    </div>
+
+    <!-- from Gábor Csányi via email 2016-09-28 -->
+    <div class="dataset">
+      <div class="name"><a href="https://qmml.org/Datasets/w-14.zip">W-14</a></div>
+      <div class="publication">
+        <span class="authors">Wojciech J. Szlachta, Albert P. Bartók, Gábor Csányi</span>:
+        <span class="title">Accuracy and Transferability of Gaussian Approximation Potential Models for Tungsten</span>,
+        <span class="journal">Physical Review&nbsp;B</span> <span class="pages">90(10): 104108</span>,
+        <span class="year">2014</span>.
+        <a href="http://doi.org/10.1103/PhysRevB.90.104108" alt="DOI">[DOI]</a>
+      </div>
+      <div class="description">
+        <span class="summary">158k diverse atomic environments of elemental tungsten.</span>
+          DFT/PBE energies, forces and stresses for tungsten, periodic unit cells in the range of 1-135 atoms,
+          including bcc primitive cell, 128-atom bcc cell, vacancies, low index surfaces, gamma-surfaces, and dislocation cores.
+          <!-- All together 158k atomic environments. -->
+      </div>
+    </div>
+
+    <!-- from Conrad Rosenbrock via email 2016-12-09 -->
+    <div class="dataset">
+      <div class="name"><a href="https://qmml.org/Datasets/bfcc-13.tar.bz2">BFCC-13</a></div>
+      <div class="publication">
+        <span class="authors">Lance J. Nelson, Vidvuds Ozoliņš, C. Shane Reese, Fei Zhou, Gus L.W. Hart</span>:
+        <span class="title">Cluster Expansion Made Easy with Bayesian Compressive Sensing</span>,
+        <span class="journal">Physical Review&nbsp;B</span> <span class="pages">88(15): 155105</span>,
+        <span class="year">2013</span>.
+        <a href="https://doi.org/10.1103/PhysRevB.88.155105" alt="DOI">[DOI]</a>
+      </div>
+      <div class="description">
+        <span class="summary">4k DFT calculations for solid AgPd, CuPt and AgPt FCC superstructures.</span>
+          DFT/PBE energy, forces and stresses for cell sizes 1-16 across all compositions including primitive cells.
+      </div>
+    </div>
+
+    <!-- from Felix Faber and Anatole von Lilienfeld via email 2017-04-10, as well as from Phys Rev Lett supplement -->
+    <div class="dataset">
+      <div class="name"><a href="https://qmml.org/Datasets/abc2d6-16.zip">ABC2D6-16</a></div>
+      <div class="publication">
+        <span class="authors">Felix A. Faber, Alexander Lindmaa, O. Anatole von Lilienfeld, Rickard Armiento</span>:
+        <span class="title">Machine Learning Energies of 2&nbsp;Million Elpasolite (ABC<sub>2</sub>D<sub>6</sub>) Crystals</span>,
+        <span class="journal">Physical Review Letters</span> <span class="pages">117(13): 135502</span>,
+        <span class="year">2016</span>.
+        <a href="https://doi.org/10.1103/PhysRevLett.117.135502" alt="DOI">[DOI]</a>
+      </div>
+      <div class="description">
+        <span class="summary">11k and 12k elpasolite crystals with DFT/PBE formation energies.</span>
+        11,358 (12 elements, III-VI) and 10,590 (39 elements, I-VIII) elpasolite crystals with relaxed geometries and formation energies computed at the DFT/PBE level of theory.
+      </div>
+    </div>
+
+    <div style="padding-bottom: 3ex;">Linked:</div>
+
+    <!-- from publication, not verified yet -->
+    <div class="dataset">
+      <div class="name"><a href="https://doi.org/10.5061/dryad.gn001">ETIM-17@Dryad</a><span style="float: right;">(479&nbsp;GB)</span></div>
+      <div class="publication">
+        <span class="authors">Francesco Ricci, Wei Chen, Umut Aydemir, G. Jeffrey Snyder, Gian-Marco Rignanese, Anubhav Jain, Geoffroy Hautier</span>:
+        <span class="title">An <it>Ab Initio</it> Electronic Transport Database for Inorganic Materials</span>,
+        <span class="journal">Scientific Data</span> <span class="pages">4: 170085</span>,
+        <span class="year">2017</span>.
+        <a href="https://doi.org/10.1038/sdata.2017.85" alt="DOI">[DOI]</a>
+      </div>
+      <div class="description">
+        <span class="summary">Electronic transport properties of 48k inorganic materials.</span>
+        Electronic conductivity, electronic thermal conductivity, Seebeck coefficient, as well as conductivity effective mass and Fermi levels for different dopings, computed at density functional level of theory using Boltzmann transport theory with constant relaxation time.
+      </div>
+    </div>
+
+    <!--
+         Liquids
+    -->
+
+    <h1 id="liquids">Liquids</h1>
+
+    <!-- from Gábor Csányi via email 2016-09-28 -->
+    <div class="dataset">
+      <div class="name"><a href="https://qmml.org/Datasets/h2o-13.tar.bz2">H2O-13</a></div>
+      <div class="publication">
+        <span class="authors">Albert P. Bartók, Michael J. Gillan, Frederick R. Manby, Gábor Csányi</span>:
+        <span class="title">Machine-Learning Approach for One- and Two-Body Corrections to Density Functional Theory: Applications to Molecular and Condensed Water</span>,
+        <span class="journal">Physical Review&nbsp;B</span> <span class="pages">88(5): 054104</span>,
+        <span class="year">2013</span>.
+        <a href="http://doi.org/10.1103/PhysRevB.88.054104" alt="DOI">[DOI]</a>
+      </div>
+      <div class="description">
+        <span class="summary">Water monomer and dimer geometries, with calculations at DFT, MP2 and CCSD(T) level of theory.</span>
+        7k water monomer geometries corresponding to a grid, with energies and forces at DFT / BLYP, PBE, PBE0 with AV5Z basis set.
+        Water dimer (O-O distances &lt; 4.5 Å, geometries sampled from a 300 K MD using the AMOEBA forcefield), interaction energies and forces with counterpoise correction, using MP2 / AVDZ, AVTZ, AVQZ (10k, 10k, 1k configurations, respectively).
+        1k water dimers (O-O distances between 4.5 and 6.0 Å, geometries sampled from a 300 K MD using the AMOEBA force field), interaction energies and forces with counterpoise correction using MP2/AVTZ.
+        2k water dimers (O-O distance &lt; 4.5 Å, geometries from a 4000 K DFT MD with a weak confining potential), interaction energies and forces with counterpoise correction using MP2/AVTZ.
+        800 water dimers (O-O distances &lt; 4.5 Å, geometries from a 300 K MD using the AMOEBA forcefield) interaction energies with counterpoise correction using MP2/AVDZ and CCSD(T)/AVDZ.
+      </div>
+    </div>
+
+</div>
+
+
+
+
+</body></html>
